@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" role="img" aria-labelledby="title desc">
+  <title id="title">北海岸の風景</title><desc id="desc">白い崖と青い海、海鳥を描いたイラスト</desc>
+  <rect width="760" height="440" rx="28" fill="#dff5f2"/>
+  <circle cx="620" cy="88" r="48" fill="#f6bd57"/>
+  <path d="M0 250c130-55 250 48 380 0s245-15 380 12v178H0z" fill="#50aebd"/>
+  <path d="M0 300c145-38 220 43 365 12s260-19 395 9" fill="none" stroke="#dffafa" stroke-width="12" opacity=".8"/>
+  <path d="M0 180l178 28 70 232H0z" fill="#f0d89e"/>
+  <path d="M0 180l178 28 18 58L0 245z" fill="#fff4cb"/>
+  <g fill="none" stroke="#193238" stroke-width="6" stroke-linecap="round"><path d="M405 115q20-18 40 0q20-18 40 0"/><path d="M518 160q14-13 28 0q14-13 28 0"/></g>
+  <g transform="translate(300 325)"><path d="M0 60h94l-18-42H20z" fill="#fff7db"/><path d="M45 18V0" stroke="#193238" stroke-width="5"/><path d="M47 3l49 28H47z" fill="#f28d52"/></g>
+</svg>

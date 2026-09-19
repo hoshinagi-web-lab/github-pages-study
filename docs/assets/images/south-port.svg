@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" role="img" aria-labelledby="title desc">
+  <title id="title">南港の風景</title><desc id="desc">港町の建物、灯台、停泊する船を描いたイラスト</desc>
+  <rect width="760" height="440" rx="28" fill="#dff3f3"/>
+  <circle cx="115" cy="85" r="48" fill="#f5b951"/>
+  <path d="M0 295c150-40 244 25 390 0s250-23 370 9v136H0z" fill="#4ba6b3"/>
+  <path d="M0 345c120-25 230 25 350 0s270-20 410 10" fill="none" stroke="#dfffff" stroke-width="10" opacity=".8"/>
+  <g transform="translate(92 180)"><rect width="118" height="120" fill="#fff1c8"/><path d="M-12 0L59-51 130 0z" fill="#dc715a"/><rect x="46" y="56" width="30" height="64" fill="#23697a"/><rect x="14" y="29" width="25" height="27" fill="#70b7c1"/><rect x="82" y="29" width="25" height="27" fill="#70b7c1"/></g>
+  <g transform="translate(250 206)"><rect width="118" height="94" fill="#f9d99a"/><path d="M-8 0h134l-21-35H13z" fill="#35766e"/><rect x="45" y="42" width="29" height="52" fill="#23697a"/></g>
+  <g transform="translate(564 110)"><path d="M25 190L40 20h58l15 170z" fill="#fff6df"/><path d="M40 20h58L88 0H50z" fill="#d95d50"/><rect x="59" y="50" width="22" height="24" fill="#69b9c7"/><path d="M18 190h102" stroke="#193238" stroke-width="8"/></g>
+  <g transform="translate(360 322)"><path d="M0 44h145l-24 35H29z" fill="#fff7de"/><path d="M72 44V0" stroke="#193238" stroke-width="5"/><path d="M75 5l54 29H75z" fill="#f18b50"/></g>
+</svg>

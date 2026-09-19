@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" role="img" aria-labelledby="title desc">
+  <title id="title">中央の森の風景</title><desc id="desc">森の木々と小道、木漏れ日を描いたイラスト</desc>
+  <rect width="760" height="440" rx="28" fill="#dff0cf"/>
+  <circle cx="380" cy="86" r="58" fill="#ffe7a3" opacity=".9"/>
+  <g fill="#3f7d5c"><circle cx="105" cy="125" r="78"/><circle cx="225" cy="98" r="92"/><circle cx="535" cy="95" r="94"/><circle cx="665" cy="138" r="82"/></g>
+  <g fill="#27634d"><circle cx="32" cy="178" r="90"/><circle cx="315" cy="145" r="74"/><circle cx="445" cy="156" r="82"/><circle cx="745" cy="180" r="86"/></g>
+  <g fill="#6b4d35"><rect x="81" y="140" width="36" height="260" rx="12"/><rect x="207" y="116" width="38" height="284" rx="12"/><rect x="520" y="116" width="38" height="284" rx="12"/><rect x="648" y="152" width="34" height="248" rx="12"/></g>
+  <path d="M305 440c22-93 56-128 75-192 19 64 54 99 76 192z" fill="#f0d69b"/>
+  <path d="M0 379c110-28 214-19 305 1l-10 60H0zm456 1c100-24 200-29 304-2v62H466z" fill="#4d9166"/>
+  <g fill="#fff4b8"><circle cx="342" cy="212" r="8"/><circle cx="411" cy="260" r="5"/><circle cx="365" cy="312" r="7"/></g>
+</svg>

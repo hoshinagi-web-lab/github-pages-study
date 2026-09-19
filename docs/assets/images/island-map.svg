@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">星凪島の案内地図</title>
+  <desc id="desc">北海岸、中央の森、南港の位置を示す架空の島の地図</desc>
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b9e8e7"/><stop offset="1" stop-color="#72c7cf"/></linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5e7ad"/><stop offset="1" stop-color="#9dcb82"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#185662" flood-opacity=".24"/></filter>
+  </defs>
+  <rect width="760" height="520" rx="36" fill="url(#sea)"/>
+  <g fill="none" stroke="#e9ffff" stroke-width="5" opacity=".65">
+    <path d="M30 90c80-35 135 35 220 0s140-35 225 0 160 25 245-5"/>
+    <path d="M10 435c95-35 160 35 250 0s155-30 235 0 145 25 250-10"/>
+  </g>
+  <path d="M382 62c76 16 104 83 120 132 19 59 106 91 77 172-28 79-121 102-204 94-92-9-191-27-202-112-9-72 64-102 79-163 18-73 51-140 130-123z" fill="url(#land)" stroke="#fff9df" stroke-width="10" filter="url(#shadow)"/>
+  <path d="M288 274c36-70 88-98 151-81 42 12 75 51 96 100-58 2-85 35-130 58-43 23-93 15-137-11 2-23 9-45 20-66z" fill="#3f906c" opacity=".9"/>
+  <path d="M252 185c72-35 168-35 250 9" fill="none" stroke="#e5f6f0" stroke-width="9" stroke-dasharray="5 12" stroke-linecap="round"/>
+  <path d="M378 346c-2 43 9 72 39 107" fill="none" stroke="#fff6cf" stroke-width="8" stroke-linecap="round"/>
+  <g font-family="sans-serif" text-anchor="middle">
+    <g transform="translate(374 122)"><circle r="14" fill="#f3a83b" stroke="white" stroke-width="4"/><text y="-26" font-size="22" font-weight="700" fill="#193238">北海岸</text></g>
+    <g transform="translate(395 281)"><circle r="14" fill="#f3a83b" stroke="white" stroke-width="4"/><text y="-26" font-size="22" font-weight="700" fill="white">中央の森</text></g>
+    <g transform="translate(421 421)"><circle r="14" fill="#f3a83b" stroke="white" stroke-width="4"/><text x="70" y="7" font-size="22" font-weight="700" fill="#193238">南港</text></g>
+  </g>
+  <g transform="translate(73 60)" fill="#193238"><path d="M0 52L19 0l19 52-19-10z"/><text x="19" y="76" font-family="sans-serif" font-size="18" text-anchor="middle">北</text></g>
+</svg>

@@ -259,3 +259,16 @@ GitHubアカウントを作成する前に、ローカルで安全に進めら�
 GitHub上の公開リポジトリ名は `github-pages-study` とし、予定する公開URLは `https://hoshinagi-web-lab.github.io/github-pages-study/` となる。
 
 個人用のGit設定は変更せず、このリポジトリのローカル設定だけを変更した。これにより、今後このリポジトリで作るコミットには個人用メールアドレスではなく、GitHub提供の非公開用アドレスが記録される。
+
+### GitHubリポジトリへの初回送信
+
+- GitHub上に公開リポジトリ `hoshinagi-web-lab/github-pages-study` を作成した。
+- ローカルリポジトリの送信先 `origin` に、作成したGitHubリポジトリのHTTPSアドレスを登録した。
+- 最初のコミットをGitHubの `main` ブランチへ送信した。
+- ローカルの `main` がGitHub上の `origin/main` を追跡するように設定された。
+
+最初の送信では、PCに保存されていた別のGitHubアカウントが自動的に使われ、権限不足のため403エラーになった。既存アカウントは削除せず、Git Credential Managerを使って `hoshinagi-web-lab` の認証を追加した。その後に送信を再実行し、正常に完了した。
+
+### 次に行うこと
+
+GitHubのリポジトリ設定で、Pagesの公開元を `main` ブランチの `/docs` に設定する。公開処理の完了後、発行されたURLへアクセスして表示を確認する。

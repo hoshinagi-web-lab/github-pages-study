@@ -279,6 +279,117 @@ h3 {
   margin: 2rem 0;
 }
 
+.search-form {
+  display: grid;
+  grid-template-columns: minmax(16rem, 1fr) minmax(12rem, 0.45fr) auto;
+  align-items: end;
+  gap: 1rem;
+  padding: 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--mist);
+}
+
+.search-field {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.search-field label {
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.search-field input,
+.search-field select,
+.search-form button {
+  min-height: 3rem;
+  border: 1px solid #8aaaa8;
+  border-radius: 0.65rem;
+  font: inherit;
+}
+
+.search-field input,
+.search-field select {
+  width: 100%;
+  padding: 0.55rem 0.75rem;
+  color: var(--ink);
+  background: white;
+}
+
+.search-form button {
+  padding: 0.55rem 1.4rem;
+  border-color: var(--sea-deep);
+  color: white;
+  background: var(--sea-deep);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.search-form button:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+
+.search-field input:focus,
+.search-field select:focus,
+.search-form button:focus-visible {
+  outline: 3px solid rgba(243, 168, 59, 0.55);
+  outline-offset: 2px;
+}
+
+.search-status {
+  min-height: 1.75rem;
+  margin: 1.5rem 0 0.7rem;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.search-results {
+  display: grid;
+  gap: 1rem;
+}
+
+.search-result {
+  padding: 1.2rem 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 0 7px 18px rgba(25, 50, 56, 0.07);
+}
+
+.search-result h2 {
+  margin: 0 0 0.5rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.25rem;
+}
+
+.search-excerpt {
+  margin: 0.4rem 0;
+  color: var(--muted);
+}
+
+.search-excerpt mark {
+  padding: 0.05em 0.15em;
+  color: inherit;
+  background: #ffe19a;
+}
+
+.search-path {
+  margin: 0.5rem 0 0;
+  color: var(--sea-deep);
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 0.78rem;
+  overflow-wrap: anywhere;
+}
+
+.search-empty {
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+  background: #fff4d8;
+}
+
 .fact {
   padding: 1rem;
   border-radius: 0.8rem;
@@ -329,6 +440,10 @@ h3 {
 
   .card-grid,
   .facts {
+    grid-template-columns: 1fr;
+  }
+
+  .search-form {
     grid-template-columns: 1fr;
   }
 }

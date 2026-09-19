@@ -1,0 +1,13 @@
+{
+  "name": "github-pages-study",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHub Pages and Pagefind learning project",
+  "scripts": {
+    "build:search": "pagefind --site docs",
+    "preview": "pagefind --site docs --serve"
+  },
+  "devDependencies": {
+    "pagefind": "1.5.2"
+  }
+}

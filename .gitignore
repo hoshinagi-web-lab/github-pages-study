@@ -13,3 +13,4 @@ Desktop.ini
 
 # Pagefind temporary cache
 .pagefind-cache/
+node_modules/
